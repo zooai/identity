@@ -3,109 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zoo Labs Identity</title>
-  <meta name="description" content="Zoo Labs identity, soul, and values">
+  <title>Zoo Labs Foundation Identity</title>
+  <meta name="description" content="Zoo Labs Foundation identity, soul, and values">
   <style>
-    :root {
-      --bg: #0a0a0a;
-      --fg: #fafafa;
-      --muted: #71717a;
-      --accent: #6366f1;
-      --border: #27272a;
-    }
+    :root { --bg: #0a0a0a; --fg: #fafafa; --muted: #71717a; --accent: #10b981; --border: #27272a; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 600px;
-      text-align: center;
-    }
-    .zen { font-size: 4rem; margin-bottom: 1rem; }
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
-      letter-spacing: -0.02em;
-    }
-    .tagline {
-      font-size: 1.25rem;
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-style: italic;
-    }
-    .description {
-      color: var(--muted);
-      margin-bottom: 2rem;
-      font-size: 1.1rem;
-    }
-    .links {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      transition: all 0.2s;
-    }
-    a:hover {
-      background: var(--accent);
-      color: var(--bg);
-      border-color: var(--accent);
-    }
-    .footer {
-      position: fixed;
-      bottom: 2rem;
-      color: var(--muted);
-      font-size: 0.875rem;
-    }
-    .soul-link {
-      margin-top: 2rem;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border);
-    }
-    code {
-      background: var(--border);
-      padding: 0.25rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.9rem;
-    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--fg); min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; line-height: 1.6; }
+    .container { max-width: 600px; text-align: center; }
+    .logo { font-size: 4rem; margin-bottom: 1rem; font-weight: 700; color: var(--accent); }
+    h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    .tagline { font-size: 1.25rem; color: var(--muted); margin-bottom: 2rem; font-style: italic; }
+    .description { color: var(--muted); margin-bottom: 2rem; font-size: 1.1rem; }
+    .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    a { color: var(--accent); text-decoration: none; padding: 0.75rem 1.5rem; border: 1px solid var(--border); border-radius: 8px; transition: all 0.2s; }
+    a:hover { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+    .footer { position: fixed; bottom: 2rem; color: var(--muted); font-size: 0.875rem; }
+    .principles { margin-top: 3rem; text-align: left; }
+    .principle { padding: 1rem; border-left: 2px solid var(--accent); margin-bottom: 1rem; }
+    .principle h3 { color: var(--fg); margin-bottom: 0.25rem; }
+    .principle p { color: var(--muted); font-size: 0.95rem; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="zen">禅</div>
-    <h1>Zoo Labs</h1>
-    <p class="tagline">Open AI Research Network</p>
+    <div class="logo">Z</div>
+    <h1>Zoo Labs Foundation</h1>
+    <p class="tagline">Open AI Research for Humanity.</p>
     <p class="description">
-      This repository contains the core identity, values, and soul that define Zoo Labs.
+      501(c)(3) nonprofit advancing decentralized AI research and decentralized science initiatives. Open by default. Governed by community. Built for the long term.
     </p>
     <div class="links">
-      <a href="https://github.com/zooai/identity">GitHub</a>
       <a href="https://github.com/zooai/identity/blob/main/soul.md">Soul Document</a>
-      <a href="https://github.com/zooai/brand">Brand</a>
+      <a href="https://zips.zoo.ngo">ZIPs</a>
+      <a href="https://github.com/zooai">GitHub</a>
     </div>
-    <div class="soul-link">
-      <p style="color: var(--muted); margin-bottom: 1rem;">View the soul document:</p>
-      <code>soul.md</code>
+    <div class="principles">
+      <div class="principle">
+        <h3>Open By Default</h3>
+        <p>Research published. Code open source. Data accessible.</p>
+      </div>
+      <div class="principle">
+        <h3>Decentralized Governance</h3>
+        <p>Community proposes, discusses, and decides through ZIPs.</p>
+      </div>
+      <div class="principle">
+        <h3>Reproducible Science</h3>
+        <p>We don't trust authority—we trust experiments anyone can verify.</p>
+      </div>
     </div>
   </div>
-  <div class="footer">
-    &copy; 2025 Zoo Labs
-  </div>
+  <div class="footer">Zoo Labs Foundation &middot; 501(c)(3) Nonprofit</div>
 </body>
 </html>
