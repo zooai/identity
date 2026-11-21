@@ -1,5 +1,7 @@
 # Zoo Labs Foundation Identity
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/identity&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/identity&ref=main&action=edit)
+
 **Open AI Research Network.**
 
 This repository contains the core identity, values, and philosophy of Zoo Labs Foundation.
